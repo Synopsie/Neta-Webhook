@@ -1,0 +1,6 @@
+name: Neta-Webhook
+version: 2.0.0
+main: neta\Main
+src-namespace-prefix: neta
+api: 5.0.0
+author: Synopsie

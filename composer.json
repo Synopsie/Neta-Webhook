@@ -1,0 +1,27 @@
+{
+    "name": "arkania/neta-webhook",
+    "description": "Cet API permet de gérer de manière facile les webhooks/message envoyés sur discord.",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "pocketmine/pocketmine-mp": "^5.13",
+        "friendsofphp/php-cs-fixer": "^3.52",
+        "phpstan/phpstan": "^1.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "neta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dumont-Julien",
+            "email": "dumontj357@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

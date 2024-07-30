@@ -1,5 +1,5 @@
 name: Neta-Webhook
-version: 2.0.0
+version: 2.0.1
 antigen: neta\Main
 api: 5.0.0
 author: Synopsie

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace arkania;
+namespace synopsie;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
@@ -131,7 +131,7 @@ Cet API permet de gérer de manière facile les webhooks/message envoyés sur di
 
 @author Synopsie
 @link https://neta.arkaniastudios.com/
-@version 2.0.1
+@version 2.1.0
 
 BODY,
             'location' => 'after_open'

@@ -11,7 +11,7 @@ Facilitez la gestion des webhooks et des messages envoyés sur Discord avec Neta
 
 ## Installation
 Pour installer [Neta-Webhook](https://github.com/Synopsie/Neta-Webhook) dans votre projet, si vous utilisez [composer](https://getcomposer.org/):
-`````injectablephp
+`````php
 composer require synopsie/neta-webhook
 `````
 
@@ -20,7 +20,7 @@ Si vous n'utilisez pas [composer](https://getcomposer.org/), alors je vous invit
 ## Utilisation
 
 **Embed**
-``````injectablephp
+``````php
 $embed = new \neta\class\Embed();
 $embed->setTitle($string); #Permet de définir le titre de l'embed
 $embed->setDescription($string); #Permet de définir la description de l'embed
@@ -32,7 +32,7 @@ $embed->setImage($url); #Permet de définir l'image de l'embed
 $embed->setThumbnail($url); #Permet de définir la miniature de l'embed
 ``````
 **Message**
-````injectablephp
+````php
 $message = new \neta\class\Message();
 $message->setUsername($string); #Permet de définir le nom d'utilisateur du message
 $message->setAvatar($url); #Permet de définir l'avatar du message
@@ -42,7 +42,7 @@ $message->setTts($bool); #Permet de définir si le message doit être lu à haut
 ````
 
 **Webhook**
-``````injectablephp
+``````php
 $webhook = new \neta\Webhook($url, $message);
 $webhook->submit() #Permet d'envoyer le message sur le webhook
 ``````
